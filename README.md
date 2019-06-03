@@ -1,5 +1,5 @@
 # my-first-chatbot
-hey there !
+Hey there !
 this is just an experimental project made at the end of my 2nd year of engineering.
 
 It uses tensorFlow for creating a neural network and prediting the output for the user entered query.I have also added some basic contextual responses.
