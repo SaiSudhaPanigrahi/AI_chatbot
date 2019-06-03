@@ -1,4 +1,4 @@
-# things we need for NLP
+
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
@@ -6,7 +6,7 @@ stemmer = LancasterStemmer()
 
 import os
 
-# things we need for Tensorflow
+
 import numpy as np
 import tflearn
 import tensorflow as tf
@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore")
 
 
 
-#tf.logging.set_verbosity(tf.logging.ERROR)
+
 
 # restore all of our data structures
 import pickle
@@ -29,7 +29,7 @@ classes = data['classes']
 train_x = data['train_x']
 train_y = data['train_y']
 
-# import our chat-bot intents file
+
 import json
 with open('json/results.json') as json_file:
 	intents = json.load(json_file)
@@ -37,14 +37,14 @@ with open('json/results.json') as json_file:
 	#print (intents)
 	
 	
-# Build neural network
+
 net = tflearn.input_data(shape=[None, len(train_x[0])])
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net)
 
-# Define model and setup tensorboard
+
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 tf.logging.set_verbosity(tf.logging.ERROR)
 
@@ -77,24 +77,19 @@ def bow(sentence, words, show_details=False):
 	
 	
 	
-#print (p)
-#print (classes)
 
-
-
-# load our saved model
 model.load('./model.tflearn')
 
 
 
-# create a data structure to hold user context
+
 context = {}
 
 ERROR_THRESHOLD = 0.25
 def classify(sentence):
-		# generate probabilities from the model
+		
 		results = model.predict([bow(sentence, words)])[0]
-		# filter out predictions below a threshold
+		
 	
 	
 		results = [[i,r] for i,r in enumerate(results)if (r>ERROR_THRESHOLD)]
