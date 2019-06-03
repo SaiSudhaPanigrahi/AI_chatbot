@@ -1,0 +1,2 @@
+model_checkpoint_path: "/var/www/html/raju/model.tflearn"
+all_model_checkpoint_paths: "/var/www/html/raju/model.tflearn"
