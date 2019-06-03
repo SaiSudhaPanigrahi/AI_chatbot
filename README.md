@@ -2,7 +2,7 @@
 hey there !
 this is just an experimental project made at the end of my 2nd year of engineering.
 
-it uses tensorFlow for creating a DNN with the given data, and predits the output..I have also added some basic contextual responses.
+It uses tensorFlow for creating a neural network and prediting the output for the user entered query.I have also added some basic contextual responses.
 
 things you'll need to set this up:
  - python 3.x
@@ -11,5 +11,4 @@ things you'll need to set this up:
  - basic flask/html/css/javascript templates for constructing the front end of the chatbot :)
 
 here are few screenshots of the working machine!
-
-(
+![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(14).png)
