@@ -11,4 +11,6 @@ things you'll need to set this up:
  - basic flask/html/css/javascript templates for constructing the front end of the chatbot :)
 
 here are few screenshots of the working machine!
-![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(14).png)
+
+- ![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(14).png)
+- ![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(9).png)
