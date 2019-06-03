@@ -1,0 +1,71 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+		
+		{"tag":"intro",
+		 "patterns":["who are you?","what are you?","tell me about yourself","are you smart?"],
+		 "responses":["iam an AI powered faq chatbot :)"],
+		 "context_set":"appreciation"
+		 
+		},
+		
+		{"tag":"intro1",
+		 "patterns":["wow , cool","cool !","wow !"],
+		 "responses":["thanks :')"],
+		 "context_set":"appreciation"
+		 
+		},
+		
+		
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","ok bye"],
+         "responses": ["see you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!","Any time!","My pleasure"]
+        },
+        {"tag": "general",
+         "patterns": ["What is a credit card?","What is credit card used for?", "Why do we use credit cards?" ],
+         "responses": ["Credit card is a convenient alternative to cash or check-based transactions issued by banks and financial institutions, enabling the holder to make a purchase (or draw advance cash) on credit.Also known as plastic money, credit cards have only recently been introduced in India as compared to the western world."]
+        },
+        {"tag": "difference between debit cards",
+         "patterns": ["difference between credit card debit cards?", "differ from debit card?", "What's the difference between credit and debit?","debit card" ],
+         "responses": ["The money that you draw out via debit card is your own money which is debited from the bank account linked to your card. On the other hand, the money that you spend (purchases) or withdraw (cash advance)via a credit card is more like a short term loan granted by card issuing entity. Instead of paying off this short term loan on a per use basis, all your expenses get converted into a consolidated bill at the end of the billing cycle."]
+        },
+        {"tag": "difference between VISA card and MasterCard",
+         "patterns": ["master card and visa card", "what is a Mastercard?", "what is a visa card?","master","visa" ],
+         "responses": ["Visa and MasterCard are global payment technology companies based out of the US that connects consumers, businesses, banks and governments across more than 200 countries and territories, enabling them to use digital currency instead of cash,checks, drafts, etc.  Apart from VISA and MasterCard, other leading global payment technology companies are American Express, Diners Club and Discover."]
+        },
+        {"tag": "different types",
+         "patterns": ["what are the different types of credit cards?", "What are the different types?", "are there different types?"],
+         "responses": ["Credit cards can be broadly classified into two categories:Standard credit cards – These are plain credit cards with basic features with no or nominal annual fees.Specialized credit cards – These are credit cards that are designed to cater to specific needs of the cardholder. Such cards include credit cards that provide dining benefits, fuel cost savings, travel privileges and others."]
+        },
+        {"tag": "CVV number",
+         "patterns": [" What is the CVV number?","cvv","what cvv?"],
+         "responses": ["The CVV Number (Card Verification Value) it is a 3 digit number mentioned on back side of your credit card on the right side of the signature panel. Also known as the CVV2, this 3 digit number is an essential part of the verification process especially in case of online transactions.The CVV number should not be disclosed to anyone"],
+         "context_set": ""
+        },
+        {"tag": "eligible",
+         "patterns": ["eligible for a Credit Card?","when eligible?","eligible"],
+         "responses": ["Though the eligibility criteria for credit cards vary from one issuer to another, the following are a few generic criteria:No less than 18 years old at the timeEither salaried or self employed (Salary proof/ acknowledge ITR required)Have at least one savings account in an Indian BankHave a valid Indian address Qualify the minimum income requirement set by the card issuer etc."],
+         "context_filter": ""
+        },
+		
+		{"tag": "lost",
+         "patterns": ["card lost","lost card","What should I do if I lose my card or if my card is stolen?","my card is lost"],
+         "responses": ["In case you have lost your card or it has been stolen, the priority is to block the card and prevent unauthorised transactions.  Please call the card issuer’s customer care number and inform them of the card loss/theft so that the card is blocked and the replacement card issue procedure is started."],
+         "context_filter": ""
+        },
+		{"tag": "Annual Fee",
+         "patterns": ["What is an Annual Fee?","annual fee?"],
+         "responses": ["An annual (yearly) fee in charged by a credit card company each year for use of a credit card. This fee varies from one card to another and may be waived off by the bank in case your card agreement contains a waiver clause on achieving a specific annual expense threshold.  There are also a number of credit cards available that have zero annual fees."],
+         "context_filter": ""
+        }
+		
+   ]
+}
+
