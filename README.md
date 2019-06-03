@@ -2,6 +2,8 @@
 hey there !
 this is just an experimental project made at the end of my 2nd year of engineering.
 
+it uses tensorFlow for creating a DNN with the given data, and predits the output..I have also added some basic contextual responses.
+
 things you'll need to set this up:
  - python 3.x
  - nltk
@@ -10,4 +12,4 @@ things you'll need to set this up:
 
 here are few screenshots of the working machine!
 
-![ss](
+(
