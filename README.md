@@ -1,4 +1,8 @@
 # my-first-chatbot
+
+Internship Certificate: sudha-certificate.pdf
+Report: sudha_report (1).pdf
+
 Hey there !
 this is just an experimental project made at the end of my 2nd year of engineering.
 
