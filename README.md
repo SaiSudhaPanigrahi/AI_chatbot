@@ -5,6 +5,10 @@
 
 **Report: sudha_report (1).pdf**
 
+---A user-friendly AI based FAQ chatbot using Machine Learning/ Deep Learning models TensorFlow and NLP (Natural Language Processing/ Data analysis) technologies that intelligently answered relevant queries regarding the organization. 
+---The FAQ chatbot collectes data from the organization’s database, converted them to Json files and trains data using deep learning models. The chatbot also handled contextual responses. Front-end of the chat application was developed using Flask Web Framework
+---Tools: C++, TensorFlow, NLTK, Python, Flask, HTML/CSS, JavaScript
+
 Hey there !
 this is just an experimental project made at the end of my 2nd year of engineering.
 
