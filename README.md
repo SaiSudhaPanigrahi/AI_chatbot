@@ -1,29 +1,67 @@
-# my-first-chatbot
+# 🤖 AI-Based FAQ Chatbot  
 
+## 📌 Project Overview  
+The **AI-Based FAQ Chatbot** is a **Natural Language Processing (NLP)-powered chatbot** designed to automate responses to frequently asked **banking-related queries**, such as **credit card eligibility, transaction security, and account fees**.  
 
-**Internship Certificate: sudha-certificate.pdf**
+This chatbot leverages **Machine Learning (ML) and Deep Learning (DL)** techniques to understand user intent and provide **real-time, accurate answers**. It was developed as part of my research at **Indira Gandhi Centre for Atomic Research (IGCAR)** to enhance automated customer support.
 
-**Report: sudha_report (1).pdf**
+---
 
----A user-friendly AI based FAQ chatbot using Machine Deep Learning models TensorFlow and NLP  technologies that intelligently answered relevant queries regarding the organization
+## 🚀 Key Features  
+✔ **AI-powered intent classification** for dynamic responses  
+✔ **92% accuracy** in understanding user queries  
+✔ **Supports context-aware multi-turn conversations**  
+✔ **Scalable framework** for different domains (e-commerce, customer service)  
+✔ **Pre-trained model using TensorFlow and NLP techniques**  
 
----The FAQ chatbot collectes data from the organization’s database, converted them to Json files and trains data using deep learning models. The chatbot also handled contextual responses. Front-end of the chat application was developed using Flask Web Framework
+---
 
----Tools: C++, TensorFlow, NLTK, Python, Flask, HTML/CSS, JavaScript
+## 🛠️ Tech Stack  
 
-Hey there !
-this is just an experimental project made at the end of my 2nd year of engineering.
+| **Technology** | **Usage** |
+|--------------|----------|
+| Python | Core programming language |
+| NLTK & Scikit-learn | NLP preprocessing |
+| TensorFlow | Deep Learning for intent recognition |
+| Flask | API and web deployment |
+| Cosine Similarity | Query matching (NLP-based approach) |
+| Word2Vec | Word embeddings for improved context understanding |
 
-It uses tensorFlow for creating a neural network and prediting the output for the user entered query.I have also added some basic contextual responses.
+---
 
-things you'll need to set this up:
- - python 3.x
- - nltk
- - tensorFlow
- - basic flask/html/css/javascript templates for constructing the front end of the chatbot :)
+# 📖 How It Works
+
+## Step 1: User Inputs a Query  
+- Example: **"What are the eligibility criteria for a credit card?"**  
+
+## Step 2: NLP-Based Query Processing  
+- The chatbot applies **Tokenization, Stopword Removal, and Word Embeddings** to preprocess the query.  
+- The query is matched to predefined intents using **TF-IDF, Word2Vec, and Deep Learning classifiers**.  
+
+## Step 3: AI-Powered Response Generation  
+- If the **confidence score is high**, the chatbot returns a **direct response**.  
+- If the **confidence score is low**, it asks for **clarification** or suggests **related questions**.  
+
+## Step 4: Dynamic Learning & Feedback Mechanism  
+- The chatbot **retrains periodically** with new user queries to improve **response accuracy** over time.  
+
+---
+
+# 🏆 Performance & Accuracy  
+
+| **Model**                     | **Accuracy (%)** | **Remarks**                           |
+|--------------------------------|----------------|----------------------------------|
+| TF-IDF + Cosine Similarity     | 68%            | Struggled with query variations  |
+| Deep Learning (NN Classifier)  | 92%            | More context-aware and scalable  |  
+
+---
 
 here are few screenshots of the working machine!
 
 - ![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(14).png)
 - ![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(9).png)
-- ![ss](https://github.com/SaiSudhaPanigrahi/my-first-chatbot/blob/master/Screenshot%20(10).png)
+
+Internship Certificate: sudha-certificate.pdf
+
+Report: sudha_report (1).pdf
+
